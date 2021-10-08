@@ -7,8 +7,6 @@
 Click "Don't have an Account? Sign Up", it open Create Account Form Page. 
 Click "Already have an Account? Sign In", it open Login Form Page.
 
-In this Project, We can know basic knowledge about HTML, CSS, JavaScript.
-
  
  
 
