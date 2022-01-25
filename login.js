@@ -37,7 +37,6 @@ document.addEventListener("DOMContentLoaded", () => {
     loginForm.addEventListener("submit", e => {
         e.preventDefault();
         //perform ajax/fetch login
-
         setFormMessage(loginForm, "error", "Invalid Username/Password Combination");
     });
 
@@ -47,11 +46,9 @@ document.addEventListener("DOMContentLoaded", () => {
                 setInputError(inputElement, "Username must be atleast 10 character in length");
             }
         });
-
         inputElement.addEventListener("input", e => {
             clearInputError(inputElement, " ");
         });
-
     });
 
 });
